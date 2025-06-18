@@ -1,0 +1,1 @@
+/home/nami/Prueba1_gen/verification/uvm/scripts/setup/setup_vivado_eda.sh

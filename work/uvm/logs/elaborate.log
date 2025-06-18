@@ -1,0 +1,25 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab tb -debug all -s work.tb -mt 10 -timescale 1ns/100ps -override_timeunit -override_timeprecision -L work -L xil_defaultlib -L uvm -L xpm -L unisims_ver -L unimacro_ver -L secureip -log /home/nami/Prueba1_gen/work/uvm/logs/elaborate.log 
+Using 10 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'A' [/home/nami/Prueba1_gen/verification/uvm/tb/tb.sv:28]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'B' [/home/nami/Prueba1_gen/verification/uvm/tb/tb.sv:29]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'C' [/home/nami/Prueba1_gen/verification/uvm/tb/tb.sv:30]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4468] File : /proj/xbuilds/SWIP/2024.2_1015_2009/installs/lin64/Vivado/2024.2/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv, Line : 25994, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+Completed simulation data flow analysis
+Time Resolution for simulation is 100ps
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package work.adder_uvc_pkg
+Compiling package work.top_env_pkg
+Compiling package work.top_test_pkg
+Compiling module work.cb_drv
+Compiling module work.adder_uvc_if_default
+Compiling module work.adder
+Compiling module work.tb
+Built simulation snapshot work.tb

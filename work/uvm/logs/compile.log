@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/verification/uvm/sv/adder_uvc_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/verification/uvm/sv/adder_uvc_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/rtl/adder.sv" into library work
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/verification/uvm/env/top_env_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/verification/uvm/tests/top_test_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/nami/Prueba1_gen/verification/uvm/tb/tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb
